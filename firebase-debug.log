@@ -1,0 +1,235 @@
+[debug] [2026-01-03T08:32:31.962Z] ----------------------------------------------------------------------
+[debug] [2026-01-03T08:32:31.964Z] Command:       F:\{RR}\RR College\node.exe C:\Users\Ramya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2026-01-03T08:32:31.964Z] CLI Version:   15.1.0
+[debug] [2026-01-03T08:32:31.965Z] Platform:      win32
+[debug] [2026-01-03T08:32:31.965Z] Node Version:  v25.2.1
+[debug] [2026-01-03T08:32:31.965Z] Time:          Sat Jan 03 2026 14:02:31 GMT+0530 (India Standard Time)
+[debug] [2026-01-03T08:32:31.965Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-03T08:32:32.790Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-03T08:32:32.790Z] > authorizing via signed-in user (ramyarojesara1234@gmail.com)
+[debug] [2026-01-03T08:32:32.790Z] [iam] checking project human-resource-managemen-e3473 for permissions ["firebase.projects.get"]
+[debug] [2026-01-03T08:32:32.791Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:32.791Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:32.791Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions [none]
+[debug] [2026-01-03T08:32:32.791Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions x-goog-quota-user=projects/human-resource-managemen-e3473
+[debug] [2026-01-03T08:32:32.791Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T08:32:34.914Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions 200
+[debug] [2026-01-03T08:32:34.914Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T08:32:34.915Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:34.915Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:34.915Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T08:32:35.261Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T08:32:35.261Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 {"projectNumber":"804912964714","projectId":"human-resource-managemen-e3473","lifecycleState":"ACTIVE","name":"Human Resource Management ","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-01-03T06:21:36.334046Z"}
+[info] 
+[info] === Serving from 'F:\RR\RR College\Sem - 1\Hackathons\Odoo X GCET\Dayflow-HRMS'...
+[info] 
+[debug] [2026-01-03T08:32:35.264Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:35.264Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:35.264Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 
+[debug] [2026-01-03T08:32:37.808Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 200
+[debug] [2026-01-03T08:32:37.808Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites {"sites":[{"name":"projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473","defaultUrl":"https://human-resource-managemen-e3473.web.app","appId":"1:804912964714:web:17a517fc556e49bcdf5613","type":"DEFAULT_SITE"}]}
+[debug] [2026-01-03T08:32:37.809Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:37.809Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:37.809Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config [none]
+[debug] [2026-01-03T08:32:39.301Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config 200
+[debug] [2026-01-03T08:32:39.301Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config {"projectId":"human-resource-managemen-e3473","appId":"1:804912964714:web:17a517fc556e49bcdf5613","storageBucket":"human-resource-managemen-e3473.firebasestorage.app","apiKey":"AIzaSyCDAzN8nx_P9_FUivxTLWZqKIrBIPscoiU","authDomain":"human-resource-managemen-e3473.firebaseapp.com","messagingSenderId":"804912964714","measurementId":"G-JH26VCGF0D","projectNumber":"804912964714","version":"2"}
+[debug] [2026-01-03T08:32:39.305Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:39.305Z] Checked if tokens are valid: true, expires at: 1767430649573
+[debug] [2026-01-03T08:32:39.305Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T08:32:39.685Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T08:32:39.686Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 {"projectId":"human-resource-managemen-e3473","projectNumber":"804912964714","displayName":"Human Resource Management ","name":"projects/human-resource-managemen-e3473","resources":{"hostingSite":"human-resource-managemen-e3473"},"state":"ACTIVE","etag":"1_2e441627-dbbe-4494-95ac-72d03fd8fdce"}
+[info] i  hosting[human-resource-managemen-e3473]: Serving hosting files from: frontend {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mfrontend\u001b[22m"}}
+[info] +  hosting[human-resource-managemen-e3473]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
+[debug] [2026-01-03T08:43:59.608Z] ----------------------------------------------------------------------
+[debug] [2026-01-03T08:43:59.611Z] Command:       F:\{RR}\RR College\node.exe C:\Users\Ramya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2026-01-03T08:43:59.611Z] CLI Version:   15.1.0
+[debug] [2026-01-03T08:43:59.611Z] Platform:      win32
+[debug] [2026-01-03T08:43:59.611Z] Node Version:  v25.2.1
+[debug] [2026-01-03T08:43:59.611Z] Time:          Sat Jan 03 2026 14:13:59 GMT+0530 (India Standard Time)
+[debug] [2026-01-03T08:43:59.611Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-03T08:44:00.409Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-03T08:44:00.409Z] > authorizing via signed-in user (ramyarojesara1234@gmail.com)
+[debug] [2026-01-03T08:44:00.410Z] [iam] checking project human-resource-managemen-e3473 for permissions ["firebase.projects.get"]
+[debug] [2026-01-03T08:44:00.410Z] Checked if tokens are valid: false, expires at: 1767430649573
+[debug] [2026-01-03T08:44:00.410Z] Checked if tokens are valid: false, expires at: 1767430649573
+[debug] [2026-01-03T08:44:00.410Z] > refreshing access token with scopes: []
+[debug] [2026-01-03T08:44:00.412Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-03T08:44:00.412Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-03T08:44:00.948Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-03T08:44:00.948Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-03T08:44:00.953Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions [none]
+[debug] [2026-01-03T08:44:00.953Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions x-goog-quota-user=projects/human-resource-managemen-e3473
+[debug] [2026-01-03T08:44:00.953Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T08:44:02.983Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions 200
+[debug] [2026-01-03T08:44:02.983Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T08:44:02.984Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:44:02.984Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:44:02.984Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T08:44:03.319Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T08:44:03.319Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 {"projectNumber":"804912964714","projectId":"human-resource-managemen-e3473","lifecycleState":"ACTIVE","name":"Human Resource Management ","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-01-03T06:21:36.334046Z"}
+[info] 
+[info] === Serving from 'F:\RR\RR College\Sem - 1\Hackathons\Odoo X GCET\Dayflow-HRMS'...
+[info] 
+[debug] [2026-01-03T08:44:03.322Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:44:03.322Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:44:03.322Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 
+[debug] [2026-01-03T08:44:05.751Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 200
+[debug] [2026-01-03T08:44:05.751Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites {"sites":[{"name":"projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473","defaultUrl":"https://human-resource-managemen-e3473.web.app","appId":"1:804912964714:web:17a517fc556e49bcdf5613","type":"DEFAULT_SITE"}]}
+[debug] [2026-01-03T08:44:05.751Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:44:05.752Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:44:05.752Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config [none]
+[debug] [2026-01-03T08:44:06.882Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config 200
+[debug] [2026-01-03T08:44:06.882Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config {"projectId":"human-resource-managemen-e3473","appId":"1:804912964714:web:17a517fc556e49bcdf5613","storageBucket":"human-resource-managemen-e3473.firebasestorage.app","apiKey":"AIzaSyCDAzN8nx_P9_FUivxTLWZqKIrBIPscoiU","authDomain":"human-resource-managemen-e3473.firebaseapp.com","messagingSenderId":"804912964714","measurementId":"G-JH26VCGF0D","projectNumber":"804912964714","version":"2"}
+[debug] [2026-01-03T08:44:06.886Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:44:06.886Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:44:06.886Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T08:44:07.259Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T08:44:07.259Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 {"projectId":"human-resource-managemen-e3473","projectNumber":"804912964714","displayName":"Human Resource Management ","name":"projects/human-resource-managemen-e3473","resources":{"hostingSite":"human-resource-managemen-e3473"},"state":"ACTIVE","etag":"1_2e441627-dbbe-4494-95ac-72d03fd8fdce"}
+[info] i  hosting[human-resource-managemen-e3473]: Serving hosting files from: frontend {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mfrontend\u001b[22m"}}
+[info] +  hosting[human-resource-managemen-e3473]: Local server: http://localhost:5003 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5003\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:57:45 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:57:45 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:57:45 +0000] "GET /css/style.css HTTP/1.1" 200 - "http://localhost:5003/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:57:45 +0000] \"GET /css/style.css HTTP/1.1\" 200 - \"http://localhost:5003/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:57:45 +0000] "GET /assets/logo.png HTTP/1.1" 200 308488 "http://localhost:5003/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:57:45 +0000] \"GET /assets/logo.png HTTP/1.1\" 200 308488 \"http://localhost:5003/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:57:46 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5003/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:57:46 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5003/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:57:48 +0000] "GET /login.html HTTP/1.1" 200 - "http://localhost:5003/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:57:48 +0000] \"GET /login.html HTTP/1.1\" 200 - \"http://localhost:5003/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:57:49 +0000] "GET /js/firebase-config.js HTTP/1.1" 200 789 "http://localhost:5003/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:57:49 +0000] \"GET /js/firebase-config.js HTTP/1.1\" 200 789 \"http://localhost:5003/login.html\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:57:49 +0000] "GET /js/script.js HTTP/1.1" 200 - "http://localhost:5003/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:57:49 +0000] \"GET /js/script.js HTTP/1.1\" 200 - \"http://localhost:5003/login.html\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:58:00 +0000] "GET /dashboard_employee.html HTTP/1.1" 200 - "http://localhost:5003/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:58:00 +0000] \"GET /dashboard_employee.html HTTP/1.1\" 200 - \"http://localhost:5003/login.html\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:58:03 +0000] "GET /leave.html HTTP/1.1" 200 - "http://localhost:5003/dashboard_employee.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:58:03 +0000] \"GET /leave.html HTTP/1.1\" 200 - \"http://localhost:5003/dashboard_employee.html\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [03/Jan/2026:08:58:04 +0000] "GET /attendance.html HTTP/1.1" 200 - "http://localhost:5003/leave.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Jan/2026:08:58:04 +0000] \"GET /attendance.html HTTP/1.1\" 200 - \"http://localhost:5003/leave.html\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\""}}
+[debug] [2026-01-03T08:59:39.782Z] ----------------------------------------------------------------------
+[debug] [2026-01-03T08:59:39.785Z] Command:       F:\{RR}\RR College\node.exe C:\Users\Ramya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2026-01-03T08:59:39.785Z] CLI Version:   15.1.0
+[debug] [2026-01-03T08:59:39.785Z] Platform:      win32
+[debug] [2026-01-03T08:59:39.785Z] Node Version:  v25.2.1
+[debug] [2026-01-03T08:59:39.785Z] Time:          Sat Jan 03 2026 14:29:39 GMT+0530 (India Standard Time)
+[debug] [2026-01-03T08:59:39.785Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-03T08:59:40.575Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-03T08:59:40.576Z] > authorizing via signed-in user (ramyarojesara1234@gmail.com)
+[debug] [2026-01-03T08:59:40.576Z] [iam] checking project human-resource-managemen-e3473 for permissions ["firebase.projects.get"]
+[debug] [2026-01-03T08:59:40.576Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:40.576Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:40.577Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions [none]
+[debug] [2026-01-03T08:59:40.577Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions x-goog-quota-user=projects/human-resource-managemen-e3473
+[debug] [2026-01-03T08:59:40.577Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T08:59:42.453Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions 200
+[debug] [2026-01-03T08:59:42.453Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T08:59:42.454Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:42.454Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:42.454Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T08:59:42.766Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T08:59:42.766Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 {"projectNumber":"804912964714","projectId":"human-resource-managemen-e3473","lifecycleState":"ACTIVE","name":"Human Resource Management ","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-01-03T06:21:36.334046Z"}
+[info] 
+[info] === Serving from 'F:\RR\RR College\Sem - 1\Hackathons\Odoo X GCET\Dayflow-HRMS'...
+[info] 
+[debug] [2026-01-03T08:59:42.767Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:42.767Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:42.767Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 
+[debug] [2026-01-03T08:59:44.614Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 200
+[debug] [2026-01-03T08:59:44.614Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites {"sites":[{"name":"projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473","defaultUrl":"https://human-resource-managemen-e3473.web.app","appId":"1:804912964714:web:17a517fc556e49bcdf5613","type":"DEFAULT_SITE"}]}
+[debug] [2026-01-03T08:59:44.615Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:44.615Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:44.615Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config [none]
+[debug] [2026-01-03T08:59:46.002Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config 200
+[debug] [2026-01-03T08:59:46.002Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config {"projectId":"human-resource-managemen-e3473","appId":"1:804912964714:web:17a517fc556e49bcdf5613","storageBucket":"human-resource-managemen-e3473.firebasestorage.app","apiKey":"AIzaSyCDAzN8nx_P9_FUivxTLWZqKIrBIPscoiU","authDomain":"human-resource-managemen-e3473.firebaseapp.com","messagingSenderId":"804912964714","measurementId":"G-JH26VCGF0D","projectNumber":"804912964714","version":"2"}
+[debug] [2026-01-03T08:59:46.007Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:46.007Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T08:59:46.007Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T08:59:46.579Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T08:59:46.580Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 {"projectId":"human-resource-managemen-e3473","projectNumber":"804912964714","displayName":"Human Resource Management ","name":"projects/human-resource-managemen-e3473","resources":{"hostingSite":"human-resource-managemen-e3473"},"state":"ACTIVE","etag":"1_2e441627-dbbe-4494-95ac-72d03fd8fdce"}
+[info] i  hosting[human-resource-managemen-e3473]: Serving hosting files from: frontend {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mfrontend\u001b[22m"}}
+[info] +  hosting[human-resource-managemen-e3473]: Local server: http://localhost:5004 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5004\u001b[22m\u001b[24m"}}
+[debug] [2026-01-03T09:18:29.081Z] ----------------------------------------------------------------------
+[debug] [2026-01-03T09:18:29.083Z] Command:       F:\{RR}\RR College\node.exe C:\Users\Ramya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2026-01-03T09:18:29.083Z] CLI Version:   15.1.0
+[debug] [2026-01-03T09:18:29.083Z] Platform:      win32
+[debug] [2026-01-03T09:18:29.084Z] Node Version:  v25.2.1
+[debug] [2026-01-03T09:18:29.084Z] Time:          Sat Jan 03 2026 14:48:29 GMT+0530 (India Standard Time)
+[debug] [2026-01-03T09:18:29.084Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-03T09:18:30.548Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-03T09:18:30.548Z] > authorizing via signed-in user (ramyarojesara1234@gmail.com)
+[debug] [2026-01-03T09:18:30.548Z] [iam] checking project human-resource-managemen-e3473 for permissions ["firebase.projects.get"]
+[debug] [2026-01-03T09:18:30.549Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:30.549Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:30.550Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions [none]
+[debug] [2026-01-03T09:18:30.550Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions x-goog-quota-user=projects/human-resource-managemen-e3473
+[debug] [2026-01-03T09:18:30.550Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T09:18:32.332Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions 200
+[debug] [2026-01-03T09:18:32.332Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T09:18:32.332Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:32.332Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:32.333Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T09:18:32.649Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T09:18:32.650Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 {"projectNumber":"804912964714","projectId":"human-resource-managemen-e3473","lifecycleState":"ACTIVE","name":"Human Resource Management ","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-01-03T06:21:36.334046Z"}
+[info] 
+[info] === Serving from 'F:\RR\RR College\Sem - 1\Hackathons\Odoo X GCET\Dayflow-HRMS'...
+[info] 
+[debug] [2026-01-03T09:18:32.651Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:32.651Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:32.651Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 
+[debug] [2026-01-03T09:18:34.694Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 200
+[debug] [2026-01-03T09:18:34.694Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites {"sites":[{"name":"projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473","defaultUrl":"https://human-resource-managemen-e3473.web.app","appId":"1:804912964714:web:17a517fc556e49bcdf5613","type":"DEFAULT_SITE"}]}
+[debug] [2026-01-03T09:18:34.694Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:34.694Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:34.694Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config [none]
+[debug] [2026-01-03T09:18:35.567Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config 200
+[debug] [2026-01-03T09:18:35.567Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config {"projectId":"human-resource-managemen-e3473","appId":"1:804912964714:web:17a517fc556e49bcdf5613","storageBucket":"human-resource-managemen-e3473.firebasestorage.app","apiKey":"AIzaSyCDAzN8nx_P9_FUivxTLWZqKIrBIPscoiU","authDomain":"human-resource-managemen-e3473.firebaseapp.com","messagingSenderId":"804912964714","measurementId":"G-JH26VCGF0D","projectNumber":"804912964714","version":"2"}
+[debug] [2026-01-03T09:18:35.571Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:35.571Z] Checked if tokens are valid: true, expires at: 1767433439948
+[debug] [2026-01-03T09:18:35.571Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T09:18:35.904Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T09:18:35.904Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 {"projectId":"human-resource-managemen-e3473","projectNumber":"804912964714","displayName":"Human Resource Management ","name":"projects/human-resource-managemen-e3473","resources":{"hostingSite":"human-resource-managemen-e3473"},"state":"ACTIVE","etag":"1_2e441627-dbbe-4494-95ac-72d03fd8fdce"}
+[info] i  hosting[human-resource-managemen-e3473]: Serving hosting files from: frontend {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mfrontend\u001b[22m"}}
+[info] +  hosting[human-resource-managemen-e3473]: Local server: http://localhost:5005 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5005\u001b[22m\u001b[24m"}}
+[debug] [2026-01-03T09:36:42.302Z] ----------------------------------------------------------------------
+[debug] [2026-01-03T09:36:42.304Z] Command:       F:\{RR}\RR College\node.exe C:\Users\Ramya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2026-01-03T09:36:42.304Z] CLI Version:   15.1.0
+[debug] [2026-01-03T09:36:42.304Z] Platform:      win32
+[debug] [2026-01-03T09:36:42.304Z] Node Version:  v25.2.1
+[debug] [2026-01-03T09:36:42.304Z] Time:          Sat Jan 03 2026 15:06:42 GMT+0530 (India Standard Time)
+[debug] [2026-01-03T09:36:42.304Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-03T09:36:43.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-03T09:36:43.112Z] > authorizing via signed-in user (ramyarojesara1234@gmail.com)
+[debug] [2026-01-03T09:36:43.112Z] [iam] checking project human-resource-managemen-e3473 for permissions ["firebase.projects.get"]
+[debug] [2026-01-03T09:36:43.112Z] Checked if tokens are valid: false, expires at: 1767433439948
+[debug] [2026-01-03T09:36:43.112Z] Checked if tokens are valid: false, expires at: 1767433439948
+[debug] [2026-01-03T09:36:43.112Z] > refreshing access token with scopes: []
+[debug] [2026-01-03T09:36:43.113Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-03T09:36:43.113Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-03T09:36:43.480Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-03T09:36:43.481Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-03T09:36:43.485Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions [none]
+[debug] [2026-01-03T09:36:43.485Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions x-goog-quota-user=projects/human-resource-managemen-e3473
+[debug] [2026-01-03T09:36:43.485Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T09:36:45.420Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions 200
+[debug] [2026-01-03T09:36:45.420Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-01-03T09:36:45.421Z] Checked if tokens are valid: true, expires at: 1767436602481
+[debug] [2026-01-03T09:36:45.421Z] Checked if tokens are valid: true, expires at: 1767436602481
+[debug] [2026-01-03T09:36:45.421Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T09:36:45.832Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T09:36:45.832Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/human-resource-managemen-e3473 {"projectNumber":"804912964714","projectId":"human-resource-managemen-e3473","lifecycleState":"ACTIVE","name":"Human Resource Management ","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-01-03T06:21:36.334046Z"}
+[info] 
+[info] === Serving from 'F:\RR\RR College\Sem - 1\Hackathons\Odoo X GCET\Dayflow-HRMS'...
+[info] 
+[debug] [2026-01-03T09:36:45.834Z] Checked if tokens are valid: true, expires at: 1767436602481
+[debug] [2026-01-03T09:36:45.834Z] Checked if tokens are valid: true, expires at: 1767436602481
+[debug] [2026-01-03T09:36:45.834Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 
+[debug] [2026-01-03T09:36:48.162Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites 200
+[debug] [2026-01-03T09:36:48.162Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/sites {"sites":[{"name":"projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473","defaultUrl":"https://human-resource-managemen-e3473.web.app","appId":"1:804912964714:web:17a517fc556e49bcdf5613","type":"DEFAULT_SITE"}]}
+[debug] [2026-01-03T09:36:48.162Z] Checked if tokens are valid: true, expires at: 1767436602481
+[debug] [2026-01-03T09:36:48.162Z] Checked if tokens are valid: true, expires at: 1767436602481
+[debug] [2026-01-03T09:36:48.163Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config [none]
+[debug] [2026-01-03T09:36:49.322Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config 200
+[debug] [2026-01-03T09:36:49.322Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473/webApps/1:804912964714:web:17a517fc556e49bcdf5613/config {"projectId":"human-resource-managemen-e3473","appId":"1:804912964714:web:17a517fc556e49bcdf5613","storageBucket":"human-resource-managemen-e3473.firebasestorage.app","apiKey":"AIzaSyCDAzN8nx_P9_FUivxTLWZqKIrBIPscoiU","authDomain":"human-resource-managemen-e3473.firebaseapp.com","messagingSenderId":"804912964714","measurementId":"G-JH26VCGF0D","projectNumber":"804912964714","version":"2"}
+[debug] [2026-01-03T09:36:49.325Z] Checked if tokens are valid: true, expires at: 1767436602481
+[debug] [2026-01-03T09:36:49.325Z] Checked if tokens are valid: true, expires at: 1767436602481
+[debug] [2026-01-03T09:36:49.326Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 [none]
+[debug] [2026-01-03T09:36:49.899Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 200
+[debug] [2026-01-03T09:36:49.899Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/human-resource-managemen-e3473 {"projectId":"human-resource-managemen-e3473","projectNumber":"804912964714","displayName":"Human Resource Management ","name":"projects/human-resource-managemen-e3473","resources":{"hostingSite":"human-resource-managemen-e3473"},"state":"ACTIVE","etag":"1_2e441627-dbbe-4494-95ac-72d03fd8fdce"}
+[info] i  hosting[human-resource-managemen-e3473]: Serving hosting files from: frontend {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mfrontend\u001b[22m"}}
+[info] +  hosting[human-resource-managemen-e3473]: Local server: http://localhost:5006 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5006\u001b[22m\u001b[24m"}}
