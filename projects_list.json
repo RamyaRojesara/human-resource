@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "projectId": "human-resource-managemen-e3473",
+      "projectNumber": "804912964714",
+      "displayName": "Human Resource Management ",
+      "name": "projects/human-resource-managemen-e3473",
+      "resources": {
+        "hostingSite": "human-resource-managemen-e3473"
+      },
+      "state": "ACTIVE",
+      "etag": "1_2e441627-dbbe-4494-95ac-72d03fd8fdce"
+    }
+  ]
+}

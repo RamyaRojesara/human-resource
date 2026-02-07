@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "result": {
+    "channels": [
+      {
+        "name": "projects/human-resource-managemen-e3473/sites/dayflow-hrms-v1/channels/live",
+        "url": "https://dayflow-hrms-v1.web.app",
+        "release": {
+          "name": "projects/human-resource-managemen-e3473/sites/dayflow-hrms-v1/channels/live/releases/1770441036814000",
+          "version": {
+            "name": "projects/human-resource-managemen-e3473/sites/dayflow-hrms-v1/versions/21b867c8e887eeff",
+            "status": "FINALIZED",
+            "config": {},
+            "labels": {
+              "deployment-tool": "cli-firebase"
+            },
+            "createTime": "2026-02-07T05:10:34.637312Z",
+            "createUser": {
+              "email": "ramyarojesara1234@gmail.com"
+            },
+            "finalizeTime": "2026-02-07T05:10:36.549384Z",
+            "finalizeUser": {
+              "email": "ramyarojesara1234@gmail.com"
+            },
+            "fileCount": "17",
+            "versionBytes": "649346"
+          },
+          "type": "DEPLOY",
+          "releaseTime": "2026-02-07T05:10:36.814Z",
+          "releaseUser": {
+            "email": "ramyarojesara1234@gmail.com"
+          }
+        },
+        "createTime": "2026-02-07T05:08:08.463208094Z",
+        "updateTime": "2026-02-07T05:10:36.814Z",
+        "retainedReleaseCount": 999999
+      }
+    ]
+  }
+}

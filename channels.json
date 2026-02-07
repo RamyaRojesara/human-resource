@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "result": {
+    "channels": [
+      {
+        "name": "projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473/channels/live",
+        "url": "https://human-resource-managemen-e3473.web.app",
+        "release": {
+          "name": "projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473/channels/live/releases/1770440677838000",
+          "version": {
+            "name": "projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473/versions/e19dfb076aa9ba68",
+            "status": "FINALIZED",
+            "config": {},
+            "labels": {
+              "deployment-tool": "cli-firebase"
+            },
+            "createTime": "2026-02-07T05:04:35.605677Z",
+            "createUser": {
+              "email": "ramyarojesara1234@gmail.com"
+            },
+            "finalizeTime": "2026-02-07T05:04:37.651539Z",
+            "finalizeUser": {
+              "email": "ramyarojesara1234@gmail.com"
+            },
+            "fileCount": "17",
+            "versionBytes": "649346"
+          },
+          "type": "DEPLOY",
+          "releaseTime": "2026-02-07T05:04:37.838Z",
+          "releaseUser": {
+            "email": "ramyarojesara1234@gmail.com"
+          }
+        },
+        "createTime": "2026-01-03T06:23:09.417952602Z",
+        "updateTime": "2026-02-07T05:04:37.838Z",
+        "retainedReleaseCount": 2147483647
+      }
+    ]
+  }
+}

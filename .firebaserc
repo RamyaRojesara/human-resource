@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "human-resource-managemen-e3473"
-  }
+  },
+  "targets": {
+    "human-resource-managemen-e3473": {
+      "hosting": {
+        "dev": [
+          "dayflow-hrms-v1"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

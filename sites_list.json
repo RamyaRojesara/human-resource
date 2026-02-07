@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "result": {
+    "sites": [
+      {
+        "name": "projects/human-resource-managemen-e3473/sites/dayflow-hrms-v1",
+        "defaultUrl": "https://dayflow-hrms-v1.web.app",
+        "type": "USER_SITE"
+      },
+      {
+        "name": "projects/human-resource-managemen-e3473/sites/human-resource-managemen-e3473",
+        "defaultUrl": "https://human-resource-managemen-e3473.web.app",
+        "appId": "1:804912964714:web:17a517fc556e49bcdf5613",
+        "type": "DEFAULT_SITE"
+      }
+    ]
+  }
+}
